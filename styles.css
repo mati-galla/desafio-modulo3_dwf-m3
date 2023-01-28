@@ -30,6 +30,11 @@ h3 {
   font-size: 1.5em;
 }
 
+.background {
+  background-image: url("./images/hexagon-background.jpg");
+  background-size: cover;
+}
+
 /* Estilos header */
 
 header {
@@ -296,6 +301,15 @@ header .mg-logo {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form-button:hover {
+  background-color: #fff674;
+}
+
+.contact-form-button:active {
+  background-color: #dfbd45;
 }
 
 @media only screen and (min-width: 769px) {
@@ -325,7 +339,7 @@ header .mg-logo {
 footer {
   height: 493px;
   padding: 50px 20px;
-  background-color: #c4c4c4;
+  background-color: #eeeeee;
 }
 
 .footer-logo-container {
@@ -345,6 +359,10 @@ footer {
   width: fit-content;
   margin-bottom: 20px;
   text-decoration: none;
+}
+
+.footer-links-container a:last-of-type {
+  margin-bottom: 0;
 }
 
 .footer-links-container figure {
